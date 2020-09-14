@@ -26,13 +26,13 @@ class App extends Component {
           <br />
           <div className="row">
             <div className="col-xs-offset col-xs-2">
-              <img src="./images/angular_logo.jpg" height="96" alt="Angular" onClick={this.handleVoteAngular}></img>
+              <img src={require('./images/angular_logo.jpg')} height="96" alt="Angular" onClick={this.handleVoteAngular}></img>
             </div> 
             <div className="col-xs-2">
-              <img src="./images/react_logo.png" height="96" alt="React" onClick={this.handleVoteReact}></img>
+              <img src={require('./images/react_logo.png')}height="96" alt="React" onClick={this.handleVoteReact}></img>
             </div> 
             <div className="col-xs-2">
-              <img src="./images/vue_logo.png" height="96" alt="Vue" onClick={this.handleVoteVue}></img>
+              <img src={require('./images/vue_logo.png')}height="96" alt="Vue" onClick={this.handleVoteVue}></img>
             </div> 
           </div>
         </div>
